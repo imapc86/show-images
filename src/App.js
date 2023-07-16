@@ -9,14 +9,11 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
           More text
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className='images'>
+        <img className="my-image" src="./assets/img/error.png" alt="logo" />
+        <img className="my-image" src="./assets/img/spiral.png" alt="logo" />
+        <img className="my-image" src="./assets/img/title.png" alt="logo" />
+      </div>
       </header>
     </div>
   );
